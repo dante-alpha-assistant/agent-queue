@@ -9,10 +9,14 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "commander": "^13.1.0",
     "ioredis": "^5.4.1"
   },
   "devDependencies": {
     "@types/node": "^25.3.2",
     "typescript": "^5.5.0"
+  },
+  "bin": {
+    "agent-queue": "./dist/cli.js"
   }
 }
