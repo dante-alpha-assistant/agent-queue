@@ -13,3 +13,4 @@ export {
 } from "./schemas.js";
 export { STREAMS, CONSUMER_GROUP } from "./streams.js";
 export { generateId, isoNow } from "./utils.js";
+export { ReliabilityManager } from "./reliability.js";
