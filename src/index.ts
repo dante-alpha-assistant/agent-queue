@@ -1,5 +1,15 @@
-export { QueueClient, type QueueClientOptions } from "./client.js";
+export { QueueClient } from "./client.js";
+export { TaskProducer } from "./producer.js";
 export { TaskConsumer } from "./consumer.js";
-export { type Task, type Result, serialize, deserialize, validateTask } from "./schemas.js";
+export {
+  type Task,
+  type Result,
+  validateTask,
+  validateResult,
+  serializeTask,
+  deserializeTask,
+  serializeResult,
+  deserializeResult,
+} from "./schemas.js";
 export { STREAMS, CONSUMER_GROUP } from "./streams.js";
-export { uuid, timestamp } from "./utils.js";
+export { generateId, isoNow } from "./utils.js";
