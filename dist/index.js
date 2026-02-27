@@ -4,4 +4,5 @@ export { TaskConsumer } from "./consumer.js";
 export { validateTask, validateResult, serializeTask, deserializeTask, serializeResult, deserializeResult, } from "./schemas.js";
 export { STREAMS, CONSUMER_GROUP } from "./streams.js";
 export { generateId, isoNow } from "./utils.js";
+export { AutoScaler } from "./autoscaler.js";
 export { ReliabilityManager } from "./reliability.js";
